@@ -199,3 +199,27 @@ print("Fichier exporté avec succès")
 # Téléchargement du fichier
 from google.colab import files
 files.download("resultats_regression.csv")
+
+
+# ==============================================================
+# 10. ANALYSE et RECOMMANDATION
+# ==============================================================
+
+# ---- Analyse des résultats -----
+
+# Le modèle de régression linéaire montre que la variable MedInc (revenu médian) est celle qui influence le plus le prix des logements.
+# Les zones avec un revenu plus élevé ont généralement des prix plus élevés.
+
+# Le coefficient de détermination R² = ... indique que le modèle explique environ (R² × 100)% de la variance des prix.
+
+# Les résidus sont globalement centrés autour de 0, ce qui signifie que le modèle est globalement adapté.
+
+# --- Recommandations  -----
+
+# Ajouter des modèles plus avancés (Ridge, Lasso, Random Forest)
+
+# Standardiser les variables
+
+# Ajouter des interactions entre variables
+
+# Tester une validation croisée
